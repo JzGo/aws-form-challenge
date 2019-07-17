@@ -1,11 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+
+import MessageForm from './MessageForm'
 
 function App() {
+
   return (
     <div>
-
+      <CssBaseline />
+      <Container maxWidth="xs">
+        <h1>Messenger App</h1>
+        <p>Send a message to the creator!</p>
+        <MessageForm/>
+      </Container>
     </div>
   );
 }
