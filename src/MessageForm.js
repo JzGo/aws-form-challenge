@@ -46,7 +46,7 @@ export default function MessageForm() {
             mode: 'no-cors'
         })
         .then(res => {
-            console.log('Message saved!', res)
+            console.log('Success! Message saved')
         })
         .catch(err => console.log(err))
 
